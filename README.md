@@ -54,7 +54,6 @@ Long-form at **[kuldeepbhati.com](https://kuldeepbhati.com/posts/)**:
 
 <!-- writing:start -->
 - [Validating Kong route paths with a custom ruleset](https://kuldeepbhati.com/posts/kong-deck-lint-validation/)
-- [Run local LLMs with Ollama and Open WebUI in Docker](https://kuldeepbhati.com/posts/run-local-llms-ollama-open-webui-docker/)
 - [Kong Gateway hybrid mode setup with Helm](https://kuldeepbhati.com/posts/kong-hybrid-gateway-setup-via-helm/)
 - [Managing multiple decK versions with DVM](https://kuldeepbhati.com/posts/deck-version-manager-dvm-guide/)
 <!-- writing:end -->
