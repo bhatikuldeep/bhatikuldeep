@@ -4,9 +4,9 @@
 </picture>
 
 <p>
-  <a href="https://kuldeepbhati.com"><img alt="Website" src="https://img.shields.io/badge/kuldeepbhati.com-0e1a2b?style=flat-square&labelColor=0e1a2b&logo=hugo&logoColor=e08a1e"></a>
-  <a href="https://www.linkedin.com/in/bhatikuldeep/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-bhatikuldeep-0e1a2b?style=flat-square&labelColor=0e1a2b&logo=linkedin&logoColor=e08a1e"></a>
-  <a href="https://kuldeepbhati.com/index.xml"><img alt="RSS" src="https://img.shields.io/badge/RSS-writing-0e1a2b?style=flat-square&labelColor=0e1a2b&logo=rss&logoColor=e08a1e"></a>
+  <a href="https://kuldeepbhati.com"><img alt="Website" src="https://img.shields.io/badge/kuldeepbhati.com-111418?style=flat-square&labelColor=111418&logo=hugo&logoColor=00f5a0"></a>
+  <a href="https://www.linkedin.com/in/bhatikuldeep/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-bhatikuldeep-111418?style=flat-square&labelColor=111418&logo=linkedin&logoColor=00f5a0"></a>
+  <a href="https://kuldeepbhati.com/index.xml"><img alt="RSS" src="https://img.shields.io/badge/RSS-writing-111418?style=flat-square&labelColor=111418&logo=rss&logoColor=00f5a0"></a>
 </p>
 
 I work with enterprise platform teams on the part of the stack every API and AI agent goes through: **the gateway**. Before Kong I built API platforms on Apigee, MuleSoft and 3scale. What carries over between products is less about the product and more about **integration patterns**: how you secure, govern, observe and migrate traffic at scale.

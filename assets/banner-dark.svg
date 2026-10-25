@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="t d">
   <title id="t">Kuldeep Bhati</title>
   <desc id="d">API and AI gateways, field engineering. I help enterprises run APIs and AI agents in production.</desc>
-  <rect width="1200" height="280" rx="16" fill="#0b1220"/>
-  <rect x="0.5" y="0.5" width="1199" height="279" rx="16" fill="none" stroke="#1e2a42"/>
+  <rect width="1200" height="280" rx="16" fill="#0e1013"/>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="16" fill="none" stroke="#262a31"/>
 
   <g font-family="Inter, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
-    <text x="64" y="86" font-size="15" font-weight="600" letter-spacing="2.4" fill="#f2a541">API &amp; AI GATEWAYS · FIELD ENGINEERING</text>
-    <text x="62" y="152" font-size="58" font-weight="800" letter-spacing="-1.6" fill="#e6e9ef">Kuldeep Bhati<tspan fill="#f2a541">.</tspan></text>
-    <text x="64" y="200" font-size="22" fill="#9aa4b2">I help enterprises run APIs and AI agents in production.</text>
-    <text x="64" y="236" font-size="16" fill="#9aa4b2">Senior Staff Field Engineer at Kong · The Netherlands</text>
+    <text x="64" y="86" font-size="15" font-weight="600" letter-spacing="2.4" fill="#3dffb4">API &amp; AI GATEWAYS · FIELD ENGINEERING</text>
+    <text x="62" y="152" font-size="58" font-weight="800" letter-spacing="-1.6" fill="#f2f2ee">Kuldeep Bhati<tspan fill="#3dffb4">.</tspan></text>
+    <text x="64" y="200" font-size="22" fill="#a3a8b0">I help enterprises run APIs and AI agents in production.</text>
+    <text x="64" y="236" font-size="16" fill="#a3a8b0">Senior Staff Field Engineer at Kong · The Netherlands</text>
   </g>
 
   <!-- gateway motif: many clients converge through one governed gateway to many upstreams -->
   <g stroke-linecap="round" fill="none">
-    <g stroke="#33415c" stroke-width="2">
+    <g stroke="#3a3f47" stroke-width="2">
       <path d="M800 70 C 880 70, 900 140, 960 140"/>
       <path d="M800 110 C 870 110, 900 140, 960 140"/>
       <path d="M800 170 C 870 170, 900 140, 960 140"/>
@@ -23,7 +23,7 @@
       <path d="M1000 140 C 1060 140, 1080 190, 1140 190"/>
     </g>
   </g>
-  <g fill="#e6e9ef">
+  <g fill="#f2f2ee">
     <circle cx="800" cy="70" r="6"/>
     <circle cx="800" cy="110" r="6"/>
     <circle cx="800" cy="170" r="6"/>
@@ -32,8 +32,8 @@
     <circle cx="1140" cy="140" r="6"/>
     <circle cx="1140" cy="190" r="6"/>
   </g>
-  <rect x="958" y="96" width="44" height="88" rx="10" fill="#f2a541"/>
-  <rect x="972" y="114" width="16" height="4" rx="2" fill="#0e1a2b"/>
-  <rect x="972" y="138" width="16" height="4" rx="2" fill="#0e1a2b"/>
-  <rect x="972" y="162" width="16" height="4" rx="2" fill="#0e1a2b"/>
+  <rect x="958" y="96" width="44" height="88" rx="10" fill="#3dffb4"/>
+  <rect x="972" y="114" width="16" height="4" rx="2" fill="#0e1013"/>
+  <rect x="972" y="138" width="16" height="4" rx="2" fill="#0e1013"/>
+  <rect x="972" y="162" width="16" height="4" rx="2" fill="#0e1013"/>
 </svg>
