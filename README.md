@@ -1,40 +1,39 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="Kuldeep Bhati. API and AI gateways, field engineering. I help enterprises run APIs and AI agents in production." src="assets/banner-light.svg" width="100%">
-</picture>
+### Hi, I'm Kuldeep
 
-<p>
-  <a href="https://kuldeepbhati.com"><img alt="Website" src="https://img.shields.io/badge/kuldeepbhati.com-111418?style=flat-square&labelColor=111418&logo=hugo&logoColor=00f5a0"></a>
-  <a href="https://www.linkedin.com/in/bhatikuldeep/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-bhatikuldeep-111418?style=flat-square&labelColor=111418&logo=linkedin&logoColor=00f5a0"></a>
-  <a href="https://kuldeepbhati.com/index.xml"><img alt="RSS" src="https://img.shields.io/badge/RSS-writing-111418?style=flat-square&labelColor=111418&logo=rss&logoColor=00f5a0"></a>
-</p>
+**Senior Staff Field Engineer at Kong Professional Services, Netherlands.**
+I help enterprises run APIs and AI agents in production.
 
-I work with enterprise platform teams on the part of the stack every API and AI agent goes through: **the gateway**. Before Kong I built API platforms on Apigee, MuleSoft and 3scale. What carries over between products is less about the product and more about **integration patterns**: how you secure, govern, observe and migrate traffic at scale.
+[kuldeepbhati.com](https://kuldeepbhati.com) · [LinkedIn](https://www.linkedin.com/in/bhatikuldeep/) · [RSS](https://kuldeepbhati.com/index.xml)
 
-These days that means three things:
+I work with the teams that run API platforms inside large companies: banks, insurers, retailers, pharma. Some are putting Kong into production for the first time, some are moving from a self-managed setup to Konnect, and more and more of them want to know how to let AI agents use their APIs safely. I started on API platforms in 2014 with Apigee, then 3scale, Mashery and MuleSoft, and joined Kong in 2023. The products changed; the problems mostly didn't.
 
-- **AI gateways and agent traffic.** Token budgets, model fallback, MCP and per-tool authorization, so LLM traffic gets the same controls as any other API.
-- **Governance as code.** Linting gateway config in CI, declarative everything, checks that run before production instead of after.
-- **Platform migrations.** Moving self-managed gateways to cloud control planes without breaking what already works.
+Whatever the project, the goal is the same: get the customer live, help them see real value from the platform, and leave them able to run it themselves.
+
+### What I work on
+
+- **Platform ops.** Running the gateway well after go-live: upgrades, ownership, capacity, and the observability that tells you why something broke.
+- **Security and traffic management.** Identity with OIDC and mTLS, rate limits and quotas, and routing rules that keep one noisy consumer from hurting everyone else.
+- **APIOps.** Gateway config in git, checked in CI and applied by a pipeline, so a change to a route doesn't need a ticket or a meeting.
+- **Production readiness.** Hardening before go-live: configuration review, failure testing, certificates, and a checklist the team can own.
+- **AI and agentic work.** Token budgets, model fallback, MCP and per-tool authorization: running LLM and agent traffic safely, including exposing existing REST APIs or MCP servers to agents with proper security and insight into access and cost.
 
 ### Upstream
 
-Fixes and docs I've sent back when a tool I depend on was missing a piece:
+When something is broken in a tool I depend on, I'd rather fix it upstream than work around it.
 
 | Project | Contribution |
 |---|---|
-| **[Kong/kong-operator](https://github.com/Kong/kong-operator/pull/5982)** | Fixed client-certificate renewal for `KonnectExtension`: register the new certificate with Konnect before data planes use it, so renewals stop causing 401s on the clustering endpoints |
+| **[Kong/kong-operator](https://github.com/Kong/kong-operator/pull/5982)** | Certificate rotation without 401s: register the renewed `KonnectExtension` client certificate with Konnect before data planes use it |
 | **[Kong/developer.konghq.com](https://github.com/Kong/developer.konghq.com/pull/7615)** | Document that `kongctl lint` uses vacuum rulesets, with a working example |
-| **[Kong/kwot](https://github.com/Kong/kwot/pull/32)** | Inject RBAC user tokens from environment variables (CI secrets, no YAML pre-processing) and self-documenting role comments |
+| **[Kong/kwot](https://github.com/Kong/kwot/pull/32)** | Inject RBAC user tokens from environment variables (CI secrets, no YAML pre-processing) |
 
 ### Projects
 
 | Repository | What it does |
 |---|---|
-| **[kong-grafana-observability-stack](https://github.com/bhatikuldeep/kong-grafana-observability-stack)** | Metrics, logs and traces for a Konnect hybrid gateway in Prometheus, Loki, Tempo and Grafana. Pinned versions, one command on a local kind cluster |
+| **[kong-grafana-observability-stack](https://github.com/bhatikuldeep/kong-grafana-observability-stack)** | Metrics, logs and traces from a Konnect hybrid gateway, wired into Prometheus, Loki and Tempo on a local kind cluster with one command |
 | **[kong-konnect-observability-datadog](https://github.com/bhatikuldeep/kong-konnect-observability-datadog)** | The same idea wired into Datadog, as Terraform |
-| **[dvm](https://github.com/bhatikuldeep/dvm)** | decK Version Manager: install and switch between decK versions locally when you test configs across Kong releases |
-| **[kong-hybrid-helm](https://github.com/bhatikuldeep/kong-hybrid-helm)** | A starting point for Kong hybrid mode on Kubernetes with Helm |
+| **[dvm](https://github.com/bhatikuldeep/dvm)** | decK Version Manager, written during a Kong 2.8 to 3.4 upgrade. For new work I recommend [pinning tools with mise](https://kuldeepbhati.com/posts/pin-cli-versions-per-project-with-mise/) instead |
 
 <details>
 <summary><b>From the Apigee years</b></summary>
@@ -50,16 +49,17 @@ Fixes and docs I've sent back when a tool I depend on was missing a piece:
 
 ### Writing
 
-Long-form at **[kuldeepbhati.com](https://kuldeepbhati.com/posts/)**:
+Notes, tools and fixes from real enterprise gateway projects, at **[kuldeepbhati.com](https://kuldeepbhati.com/posts/)**:
 
 <!-- writing:start -->
-- [Validating Kong route paths with a custom ruleset](https://kuldeepbhati.com/posts/kong-deck-lint-validation/)
-- [Kong Gateway hybrid mode setup with Helm](https://kuldeepbhati.com/posts/kong-hybrid-gateway-setup-via-helm/)
-- [Managing multiple decK versions with DVM](https://kuldeepbhati.com/posts/deck-version-manager-dvm-guide/)
+- [From plugin to entities: local Ollama behind Kong AI Gateway 2.x](https://kuldeepbhati.com/posts/ollama-kong-ai-gateway-2-konnect/)
+- [Stop switching tool versions: pin every CLI per project with mise](https://kuldeepbhati.com/posts/pin-cli-versions-per-project-with-mise/)
+- [Kong hybrid mode on Kubernetes with Helm, and what keeps working when the control plane doesn't](https://kuldeepbhati.com/posts/kong-hybrid-gateway-setup-via-helm/)
+- [Your CI is green, Kong says no: lint route paths before you deploy](https://kuldeepbhati.com/posts/kong-deck-lint-validation/)
 <!-- writing:end -->
 
 ### Toolbox
 
-`Kong Gateway` · `Konnect` · `AI Gateway` · `decK` · `kongctl` · `Terraform` · `Kubernetes` · `Helm` · `Go` · `OpenTelemetry` · `Grafana` · `Datadog` · `Apigee` · `MuleSoft`
+`Kong Gateway` · `Konnect` · `AI Gateway` · `decK` · `kongctl` · `Terraform` · `Kubernetes` · `Helm` · `OIDC` · `OpenTelemetry` · `Grafana` · `Datadog` · `Apigee` · `MuleSoft`
 
 <sub>Based in the Netherlands. Views are my own.</sub>
