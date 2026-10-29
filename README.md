@@ -5,7 +5,7 @@ I help enterprises run APIs and AI agents in production.
 
 [kuldeepbhati.com](https://kuldeepbhati.com) · [LinkedIn](https://www.linkedin.com/in/bhatikuldeep/) · [RSS](https://kuldeepbhati.com/index.xml)
 
-I work with the teams that run API platforms inside large companies: banks, insurers, retailers, pharma. Some are putting Kong into production for the first time, some are moving from a self-managed setup to Konnect, and more and more of them want to know how to let AI agents use their APIs safely. I started on API platforms in 2014 with Apigee, then 3scale, Mashery and MuleSoft, and joined Kong in 2023. The products changed; the problems mostly didn't.
+I work with the teams that run API platforms inside large companies: banks, insurers and retailers. Some are putting Kong into production for the first time, some are moving from a self-managed setup to Konnect, and more and more of them want to know how to let AI agents use their APIs safely. I started on API platforms in 2014 with Apigee, then 3scale, Mashery and MuleSoft, and joined Kong in 2023. The products changed; the problems mostly didn't.
 
 Whatever the project, the goal is the same: get the customer live, help them see real value from the platform, and leave them able to run it themselves.
 
