@@ -3,7 +3,7 @@
 **Senior Staff Field Engineer at Kong Professional Services, Netherlands.**
 I help enterprises run APIs and AI agents in production.
 
-[kuldeepbhati.com](https://kuldeepbhati.com) · [LinkedIn](https://www.linkedin.com/in/bhatikuldeep/) · [RSS](https://kuldeepbhati.com/index.xml)
+[kuldeepbhati.com](https://kuldeepbhati.com) · [About](https://kuldeepbhati.com/about/) · [Projects](https://kuldeepbhati.com/projects/) · [LinkedIn](https://www.linkedin.com/in/bhatikuldeep/) · [RSS](https://kuldeepbhati.com/index.xml)
 
 I work with the teams that run API platforms inside large companies: banks, insurers and retailers. Some are putting Kong into production for the first time, some are moving from a self-managed setup to Konnect, and more and more of them want to know how to let AI agents use their APIs safely. I started on API platforms in 2014 with Apigee, then 3scale, Mashery and MuleSoft, and joined Kong in 2023. The products changed; the problems mostly didn't.
 
@@ -31,6 +31,7 @@ When something is broken in a tool I depend on, I'd rather fix it upstream than 
 
 | Repository | What it does |
 |---|---|
+| **[kongctl-lint-governance](https://github.com/bhatikuldeep/kongctl-lint-governance)** | A kongctl lint ruleset for Kong AI Gateway and MCP configuration, used as a pull-request gate before apply |
 | **[kong-grafana-observability-stack](https://github.com/bhatikuldeep/kong-grafana-observability-stack)** | Metrics, logs and traces from a Konnect hybrid gateway, wired into Prometheus, Loki and Tempo on a local kind cluster with one command |
 | **[kong-konnect-observability-datadog](https://github.com/bhatikuldeep/kong-konnect-observability-datadog)** | The same idea wired into Datadog, as Terraform |
 | **[dvm](https://github.com/bhatikuldeep/dvm)** | decK Version Manager, written during a Kong 2.8 to 3.4 upgrade. For new work I recommend [pinning tools with mise](https://kuldeepbhati.com/posts/pin-cli-versions-per-project-with-mise/) instead |
@@ -52,6 +53,7 @@ When something is broken in a tool I depend on, I'd rather fix it upstream than 
 Notes, tools and fixes from real enterprise gateway projects, at **[kuldeepbhati.com](https://kuldeepbhati.com/posts/)**:
 
 <!-- writing:start -->
+- [Kong AI Gateway governance as code: lint checks before go-live](https://kuldeepbhati.com/posts/lint-ai-gateway-mcp-config-kongctl/)
 - [From plugin to entities: local Ollama behind Kong AI Gateway 2.x](https://kuldeepbhati.com/posts/ollama-kong-ai-gateway-2-konnect/)
 - [Stop switching tool versions: pin every CLI per project with mise](https://kuldeepbhati.com/posts/pin-cli-versions-per-project-with-mise/)
 - [Kong hybrid mode on Kubernetes with Helm, and what keeps working when the control plane doesn't](https://kuldeepbhati.com/posts/kong-hybrid-gateway-setup-via-helm/)
